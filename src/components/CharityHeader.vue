@@ -197,6 +197,7 @@ p {
       width: 150px;
       padding: 0;
       margin-left: 80px;
+      font-size: 12px;
     }
   }
   @media screen and (max-width: 446px) {
@@ -206,6 +207,29 @@ p {
 
     .btn {
       margin-left: 60px;
+    }
+  }
+  @media screen and (max-width: 405px) {
+    h4,p {
+      font-size: 6px;
+    }
+
+    .btn {
+      margin-left: 30px;
+      font-size: 10px;
+    }
+
+    .logo {
+      padding: 10px;
+    }
+
+    svg {
+      margin-left: 8px;
+    }
+
+    .writeup {
+      margin-top: 5px;
+      margin-right: 10px;
     }
   }
 </style>

@@ -114,4 +114,9 @@
       padding-left: 0;
     }
   }
+  @media screen and (max-width: 345px) {
+    #body {
+      padding: 0;
+    }
+  }
 </style>

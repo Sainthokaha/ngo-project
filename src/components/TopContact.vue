@@ -134,4 +134,12 @@
       border-top: 1px solid #EAEAEA;
     }
   }
+  @media screen and (max-width: 340px) {
+    .top-social-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 </style>
