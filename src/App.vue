@@ -5,6 +5,7 @@
   import NavBar from './components/NavBar.vue'
   import TopImageSlider from './components/TopImageSlider.vue'
   import HomeBottom from './components/HomeBottom.vue'
+  import About from './components/About.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@
   <NavBar />
   <TopImageSlider />
   <HomeBottom />
+  <About />
 </template>
 
 <style scoped>
