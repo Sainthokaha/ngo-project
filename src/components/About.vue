@@ -347,4 +347,20 @@ export default {
       padding: 10px 10px 0 0px;
     }
   }
+
+  @media screen and (max-width: 725px) {
+    .about-container {
+      padding: 10px 10px 0 0px;
+    }
+
+    .upcoming-container, .featured-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .upcoming-container .left img {
+      max-width: 580px;
+      height: 300px;
+    }
+  }
 </style>
