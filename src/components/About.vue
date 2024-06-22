@@ -294,8 +294,57 @@ export default {
       margin-left: -50px;    
     }
 
+    .featured {
+      margin-top: 20px;
+    }
+
     .img-container img {
       width: 590px;
+    }
+
+    .writeup {
+      margin-top: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1190px) {
+    .about-container {
+      margin-left: 100px;
+    }
+
+    .right {
+      margin-left: -40px;
+    }
+  }
+
+  @media screen and (max-width: 1180px) {
+    .about-container {
+      padding: 10px 130px 0 100px;
+    }
+
+    .right {
+      margin-left: px;
+    }
+
+    .upcoming-container .left img {
+      min-width: 200px;
+      height: 112px;
+    }
+
+    .img-container img {
+      min-width: 230px;
+    }
+  }
+
+  @media screen and (max-width: 985px) {
+    .about-container {
+      padding: 10px 80px 0 60px;
+    }
+  }
+
+  @media screen and (max-width: 857px) {
+    .about-container {
+      padding: 10px 10px 0 0px;
     }
   }
 </style>
