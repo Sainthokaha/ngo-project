@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="about-container flex justify-around mt-20">
-      <div class="upcoming w-[36%]">
+      <div class="upcoming w-[40%]">
         <div class="heading uppercase font-bold text-[20px] mb-10">Upcoming Events</div>
         <div class="upcoming-container flex items-center my-6">
           <div class="left flex">
@@ -15,7 +15,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right pl-8">
             <h1 class="uppercase font-[500] mb-3">charity for education</h1>
             <div class="flex mb-1">
               <div class="flex items-center text-[13px] mr-2">
@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right pl-8">
             <h1 class="uppercase font-[500] mb-3">charity for education</h1>
             <div class="flex mb-1">
               <div class="flex items-center text-[13px] mr-2">
@@ -85,7 +85,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right pl-8">
             <h1 class="uppercase font-[500] mb-3">charity for education</h1>
             <div class="flex mb-1">
               <div class="flex items-center text-[13px] mr-2">
@@ -109,24 +109,24 @@
           </div>
         </div>
       </div>
-      <div class="featured w-[36%]">
+      <div class="featured w-[40%]">
         <div class="heading uppercase font-bold text-[20px] mb-10">Featured Causes</div>
         <div class="featured-container flex">
           <div class="img-container">
-            <img class="h-[410px] w-[1300px]" src="../assets/featured-img.jpg" alt="" />
+            <img class="h-[410px] w-[1300px] pr-8" src="../assets/featured-img.jpg" alt="" />
           </div>
-          <div class="writeup flex flex-col items-center justify-center">
-            <h1 class="uppercase text-[18px] font-[500] mb-6">charity for education</h1>
-            <p class="text-[#f14b05] text-[12px] font-[800] mb-6">
+          <div class="writeup flex flex-col">
+            <h1 class="uppercase text-[18px] font-[500] mt-6 mb-4">charity for education</h1>
+            <p class="text-[#f14b05] text-[14px] font-[800] mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid
               maiores laborum.
             </p>
-            <p class="text-[12px] text-gray-400 font-[600] mb-6">
+            <p class="text-[14px] text-gray-400 font-[600] mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatem
               atque esse at eligendi? Atque iste tenetur debitis. Earum odit atque ipsam
               reprehenderit ducimus a aut, provident enim iusto sed.
             </p>
-            <div class="btn mb-6">
+            <div class="btn mb-4">
               <button
                 class="text-xs font-bold border-2 border-[#f14b05] text-white px-5 py-2 rounded-full hover:text-[#f14b05] bg-[#f14b05] hover:bg-white hover:transition-all mr-2"
               >
@@ -138,9 +138,9 @@
                 READ MORE
               </button>
             </div>
-            <h2 class="uppercase font-[500] text-[14px]">help us share:</h2>
+            <h2 class="uppercase font-[500] text-[14px] mb-2">help us share:</h2>
             <div class="icons flex">
-              <div class="about-link">
+              <div class="about-link pr-2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <svg
                     fill="#f14b05"
@@ -155,7 +155,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="about-link">
+              <div class="about-link pr-2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <svg
                     fill="#f14b05"
@@ -170,7 +170,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="about-link">
+              <div class="about-link pr-2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <svg
                     fill="#f14b05"
@@ -185,7 +185,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="about-link">
+              <div class="about-link pr-2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <svg
                     fill="#f14b05"
@@ -200,7 +200,7 @@
                   </svg>
                 </a>
               </div>
-              <div class="about-link">
+              <div class="about-link pr-2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <svg
                     fill="#f14b05"
@@ -261,5 +261,41 @@ export default {
 
   .about-link a:hover svg {
     fill: white;
+  }
+
+  @media screen and (max-width: 1417px) {
+    .upcoming {
+      width: 42%;
+    }
+  }
+
+  @media screen and (max-width: 1349px) {
+    .upcoming {
+      width: 46%;
+    }
+  }
+
+  @media screen and (max-width: 1236px) {
+    .about-container {
+      flex-direction: column;
+      margin-left: 150px;
+    }
+
+    .upcoming, .featured {
+      min-width: 100%;
+    }
+    
+    .upcoming-container .left img {
+      width: 450px;
+      height: 200px;
+    }
+
+    .right {
+      margin-left: -50px;    
+    }
+
+    .img-container img {
+      width: 590px;
+    }
   }
 </style>
