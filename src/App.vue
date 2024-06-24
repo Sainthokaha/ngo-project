@@ -6,6 +6,7 @@
   import TopImageSlider from './components/TopImageSlider.vue'
   import HomeBottom from './components/HomeBottom.vue'
   import About from './components/About.vue'
+  import Causes from './components/Causes.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@
   <TopImageSlider />
   <HomeBottom />
   <About />
+  <Causes />
 </template>
 
 <style scoped>
