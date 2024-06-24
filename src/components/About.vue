@@ -350,7 +350,7 @@ export default {
 
   @media screen and (max-width: 725px) {
     .about-container {
-      padding: 10px 10px 0 0px;
+      margin: 10px 0px 0 60px;
     }
 
     .upcoming-container, .featured-container {
@@ -358,9 +358,14 @@ export default {
       flex-direction: column;
     }
 
+    .upcoming-container {
+      max-width: 900px;
+    }
+
     .upcoming-container .left img {
-      max-width: 580px;
-      height: 300px;
+      padding-left: px;
+      max-width: px;
+      min-height: 200px;
     }
   }
 </style>
