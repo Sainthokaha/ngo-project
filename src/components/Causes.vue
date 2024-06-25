@@ -3,7 +3,7 @@
     <div class="causes">
       <div class="heading flex flex-col items-center justify-center">
         <h1 class="mt-28 font-bold text-4xl">Recent Causes</h1>
-        <p class="text-gray-400 mt-2">Lorem ipsum is a dummy text i wil use for subtitle here</p>
+        <p class="ptag text-gray-400 mt-2">Lorem ipsum is a dummy text i will use for subtitle here</p>
       </div> 
       <div class="cards flex gap-10 items-center justify-center mt-28">
         <div class="card1 border-solid border-[5px] border-gray-200">
@@ -85,8 +85,9 @@
       width: 150px;
     }
 
-    .cause-btn {
-      min-width: 100px;
+    .ptag {
+      padding-left: 10px;
+      padding-right: 5px;
     }
   }
 </style>
