@@ -7,6 +7,7 @@
   import HomeBottom from './components/HomeBottom.vue'
   import About from './components/About.vue'
   import Causes from './components/Causes.vue'
+  import Volunteer from './components/Volunteer.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@
   <HomeBottom />
   <About />
   <Causes />
+  <Volunteer />
 </template>
 
 <style scoped>
