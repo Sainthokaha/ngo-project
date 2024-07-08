@@ -1,5 +1,5 @@
 <template>
-  <div class="volunteer flex flex-col items-center justify-center bg-[url('../assets/image1.jpg')]">
+  <div class="volunteer flex flex-col items-center justify-center bg-[url('../assets/image1.jpg')] bg-no-repeat max-w-full h-auto">
     <div class="volunteer-body">
       <div class="writeup flex flex-col items-center justify-center px-[400px] pt-14 mt-40 bg-red-100">
         <h1 class="font-bold text-[26px] capitalize mb-6">save children from hunger</h1>
@@ -16,7 +16,7 @@
         <span
           class="text-xs font-bold border-2 border-[#f14b05] text-white px-5 py-2 rounded-full hover:text-[#f14b05] bg-[#f14b05] hover:bg-white hover:transition-all mr-2">Donate
           now</span>
-          <span class="cause-btn text-xs font-bold border-2 border-[#f14b05] text-[#f14b05] hover:text-white px-5 py-2 rounded-full hover:bg-[#f14b05] hover:transition-all">25 Donators</span>
+          <span class="cause-btn uppercase text-xs font-bold border-2 border-[#f14b05] text-[#f14b05] hover:text-white px-5 py-2 rounded-full hover:bg-[#f14b05] hover:transition-all">Read more</span>
       </div>
     </div>
   </div>
